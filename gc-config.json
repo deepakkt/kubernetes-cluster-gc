@@ -1,0 +1,22 @@
+{
+    "exclude_namespaces": [
+        "kube-system",
+        "default"
+    ],
+    "exclude_namespace_suffixes": [
+        "-dev",
+        "-prod",
+        "-staging"
+    ],
+    "secret_cleanup_prefixes": [
+        "git-",
+        "dhops-",
+        "vars-",
+        "creds-"
+    ],
+    "service_account_cleanup_prefixes": [
+        "git-",
+        "dhops-"
+    ],
+    "cleanup_older_than_days": 2
+}
