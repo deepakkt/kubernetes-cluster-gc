@@ -1,7 +1,14 @@
 {
     "exclude_namespaces": [
         "kube-system",
-        "default"
+        "default",
+        "external-secrets",
+        "ingress-nginx-private",
+        "ingress-nginx-public",
+        "monitoring",
+        "namespace-configurator",
+        "tekton-pipelines",
+        "velero"
     ],
     "exclude_namespace_suffixes": [
         "-dev",
