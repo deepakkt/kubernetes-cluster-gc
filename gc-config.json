@@ -12,11 +12,13 @@
         "git-",
         "dhops-",
         "vars-",
-        "creds-"
+        "creds-",
+	"build-",
+	"config-"
     ],
     "service_account_cleanup_prefixes": [
         "git-",
         "dhops-"
     ],
-    "cleanup_older_than_days": 2
+    "cleanup_older_than_days": 1
 }
